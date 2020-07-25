@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Log in</title>
+		<link href="attract.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="par">
+		<h1></h1>
+		<form id="form1">	
+			<fieldset>
+				<legend>Enter your username and password</legend>				
+				<label> Username: 
+					<input id="username" type="text" name="username" value="" />					
+				</label>
+				<label> Password :
+					<input id="password" type="password" name="password" value="" />
+				</label>				
+				<br />
+				<p></p>
+				<br/>
+				<input id="login" type="button" onclick="checklogin(this.form)" value="Login" />	
+				<a href="home.html">
+				<input id="cancel" type="button" value="Cancel" >
+				</a>	
+			</fieldset>			
+		</form>
+		</div>
+
+		<script src="log.js"></script>
+	</body>
+</html>
